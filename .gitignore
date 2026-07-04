@@ -1,0 +1,16 @@
+node_modules/
+dist/
+artifacts/
+cache/
+coverage/
+.vitest-cache/
+.env
+.DS_Store
+js/node_modules/
+js/dist/
+development/
+sol-js/node_modules/
+sol-vue/node_modules/
+sol-vue/data.json
+sol-vue/.vscode/
+on-chain-mining-game-kernel-whitepaper.md

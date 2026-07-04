@@ -1,0 +1,23 @@
+{
+  "name": "@chain-game-nft-core/mining-game-sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for the On-Chain Mining Game Kernel Protocol.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "peerDependencies": {
+    "viem": "^2.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3",
+    "viem": "^2.17.0",
+    "vitest": "^2.0.5"
+  }
+}
